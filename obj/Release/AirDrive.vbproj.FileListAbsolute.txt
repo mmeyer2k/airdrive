@@ -1,0 +1,49 @@
+C:\Users\Jonathan\Desktop\airdrive\bin\Release\AirDrive.exe.config
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.exe.config
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmAbout.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmActs.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmDupDiag.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmFileProperties.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmLogin.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmLogViewer.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmMain.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmManage.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmOptions.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmProfile.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.frmLocDup.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.Resources.resources
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\inno.iss
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\new.txt
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\readme.txt
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\eula.rtf
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.exe.manifest
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.application
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.exe
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.pdb
+C:\Documents and Settings\meatwad1\Desktop\airdrive\bin\Release\AirDrive.xml
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.TrustInfo.xml
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.exe.manifest
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.application
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.exe
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.xml
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\AirDrive.pdb
+C:\Documents and Settings\meatwad1\Desktop\airdrive\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmAbout.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmActs.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmDupDiag.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmFileProperties.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmLogin.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmLogViewer.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmMain.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmManage.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmOptions.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmProfile.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.frmLocDup.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\AirDrive.Resources.resources
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\ResGen.read.1.tlog
+C:\Users\Jonathan\Desktop\airdrive\obj\Release\ResGen.write.1.tlog

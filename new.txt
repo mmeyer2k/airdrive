@@ -1,0 +1,202 @@
+0.1.30
+-fixed form flow of logout proceedure
+-minor GUI changes
+-fixed error in queue handler that would cause exceptions when deleting directories
+
+0.1.29
+-fixed issue that caused modal popup window to open behind application, making the application appear unresponsive
+-fixed some issues related to deleting files from GMail accounts
+
+0.1.28
+-fixed profile login ambiguity error
+-fixed trackbar updating issue on Account creation page
+-fixed infinite loop error in logging system subfunction that would cause overflow exception when receiving large amounts of redundant data
+-fixed failed socket retry loop error
+-fixed file purging error on gmail accounts, created purging routine
+-offloaded ver.txt functionality to My.Settings object
+-fixed gmail account recognition error
+-fixed handling of program state when no remote accounts are added
+-removed display reliance on monospaced fonts
+-fixed an error that could cause application when parsing remote file data from server, this error was also possibly causing a mysterious delete issue
+-added auto logon
+-added ability to cancel long operations (like file queueing)
+-fixed bug that would cause application to crash when the thread that calls the update check operation is called too many times
+
+0.1.27
+-fixed another relative link error that would cause file data XML file to fail during load
+-added better handling of errors during profile load
+-better handling of bad internet connections, creation of roaming ping checker
+-fixed error that caused file deletion to fail in GMail accounts
+-eliminated all registry creation code and replaced with My.Settings objects
+-changed internal links to point to better media wiki
+-added 'help' buttons to all modal dialog boxes that link to wikimedia documentation pages
+-added total support for Google Apps accounts
+
+0.1.26
+-fixed bug that would save file shutdown.bin to the desktop
+-added a VB setting that monitors shutdown status
+-fixed cross threading error that would cause decryption of the account file to file on some platforms
+-fixed relative path startup error caused by INNO script
+
+0.1.25
+-fixed some bugs that would cause an infinite loop to be executed when an error occurred during log output
+-imported project to Visual Studio 2010 Platform
+-error preventing updates from running at start up
+
+0.1.24 
+-added license header to every page of source
+-redirected some internal links to sourceforge
+-made connection error handling more robust
+-fixed an error that would crash the program on Windows 7 64 Bit machines.
+-minor cosmetic changes to the accounts creation dialog
+-changed some URL specifiers
+-began adding framework for multilanguage support
+-begin developing framework for online support wiki on sourceforge
+-changed several links to reflect to sourceforge.net hosting
+-updated installer script
+-update checking enabled by default
+-repaired an error that could cause accounts to be immediately corrrupted after creation on some architectures
+
+0.1.23
+-remove obsolete code
+-fixed massive error in local directory traversal
+-added windows 7 exception support
+
+0.1.22
+-removed obsolete and redundant code
+-added queue item count and total queue size labels to main form
+
+0.1.21
+-added accessability features that aid keyboard-only navigation
+-added filesystem monitoring for more dynamic GUI
+-fixed a bug that caused local folders to display improper icon in the treeview
+-fixed bug that could leak information about encrypted files to imap server
+-fixed error with downloaded files being improperly named
+-disabled encrypted logging until all bugs can be tracked down
+
+0.1.20
+-fixed directory downloading issue where directory structure fidelity was not correct
+-fixed overlooked renaming bug
+-created secure log viewing window that eliminates need to store plaintext logs to disk
+-fixed massive error with IMAP socket error handling
+-fixed problem with encrypted logs not displaying
+-fixed bug that caused application data to be saved in the wrong location
+-added ability to delete individual archived versions of a file
+
+0.1.19
+-changed visual layout
+-optimized IMAP engine
+-improved effectiveness of encryption by removing insecure md5 calls
+-added more informative tooltips to the main interface window
+-added more robust local file renaming routing
+-removed some obsolete code
+-added encrypted logging function
+-added duplicate file recognition
+-improved handling of socket errors while uploading. program was attempting to repeatedly send data through a broken connection
+-fixed menu bar display consistancy error
+-disabled automatic update check for security reasons
+
+0.1.18
+-fixed some errors with profile creation
+
+0.1.17
+-repaired bug that crashed program if remote file did not have an extension
+-aligned controls that were misaligned
+-improved readability of the account management window
+
+0.1.16
+-updated graphics package
+-repaired action sequence required to delete items from gmail accounts
+-fixed bug that prevented remote file list from displaying in correct order
+-added option to display file icons
+-added remote file properties window
+-finished implementing the archive feature
+-repaired errors with context menu buttons running the incorrect subroutines
+-cleaned up transfer progress monitor code, should speed up transfers
+-fixed a crash that could occur when creating new remote directories
+-fixed error that would prevent proper display of account information
+-fixed error that prevented gathering certain types of data from remote accounts
+-fixed error that would not allow accounts to be properly deleted through the 'Manage Accounts' window
+-repaired menu flow error
+-error with archived downloads caused configuration XML files to be saved in the incorrect location
+
+0.1.15
+-improved the icons appearance and made minor GUI cosmetic changes
+-fixed crash when queuing files during a deletion
+-improved some behaviors on the GUI
+-added ability to queue while deleting
+-added ability to detect changes to the filesystem and update file list views accordingly.
+-fixed application crash when server sends back malformed data
+-began implementing RENAME functionality framework
+
+0.1.14
+-improved handling of broken connections
+-improved handling of files/directories with restricted access
+
+0.1.13
+-improved upload progress reporting error
+-fixed error with downloading multipart encrypted files
+
+0.1.12
+-more improvements to the menu system
+-enabled adding of non-gmail accounts
+-fixed errors with handling encryted segments
+-encrypted files appear green in the list view
+-encrypted uploads obscure all data about the file, including name and size
+-improved visual feedback when deleting files
+-fixed an error that would hang the application during its close routine
+-increased efficiency of XML compression, reduced total size of XML files
+
+0.1.11
+-fixed bug in connection routine that would make unnecessary IMAP connection attempts
+-fixed bug that kept buttons disabled on login screen after entering incorrect password
+-added file encryption capability
+
+0.1.10
+-switched to customized objects database instead of hashtables
+-improved error handling in TCP connection code
+-fixed error where storage size was reported incorrectly in the "manage accounts" window
+-began coding drag/drop functionality
+-repaired error that would cause unnecessary database searches
+-limited profile name length to 256 characters
+-removed extra harddrive reads from encoding function
+
+0.1.9
+-more updates to the inno installer
+-fixed GUI hang problem when completing a queue collection
+-begin coding of new database objects to replace hashtables which will improve performace
+
+0.1.8
+-fixed some errors with XML data files saving with the wrong extension
+-fixed minor error with file deletion handling
+-improved the performance of the remote file containers while uploads are in progress
+-fixed a type conversion error when uploading duplicate files
+-added ability to detect abnormal shutdown
+
+0.1.7
+-more updates to installer
+-added ability to check for updates
+-fixed bug in database update after remote file delete
+
+0.1.6
+-created profile exporting feature
+-improved logging
+-improved imap error handling
+-added download duplicate dialog window
+-switched to Install Shield installer
+-increased database searching speed
+
+0.1.5
+-streamlined menu flow
+-verification of .NET 3.5 installation
+-other modifications to the installer to make it more funcitonal
+-fixed single file downloading capability
+-fixed menu navigation errors and improved some of the existing code
+-added variable quota selection trackbar for each email account
+-fixed errors with the 'back' button on the accounts screen
+-improved form handling
+-enabled context menus
+-changed behavior of file deletion
+
+0.1.4
+-menu fixes

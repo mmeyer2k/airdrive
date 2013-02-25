@@ -1,0 +1,12 @@
+{
+  "name": "AirDrive",
+  "version": "1.0",
+  "description": "AirDrive: Array of IMAP Repositories",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}

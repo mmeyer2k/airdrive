@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{391E84F4-36AC-405F-AA4C-55DE04CA4B9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AirDrive.My.MyApplication</StartupObject>
+    <RootNamespace>AirDrive</RootNamespace>
+    <AssemblyName>AirDrive</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ManifestCertificateThumbprint>DED901B58CF5C705F074872493B992958B031716</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>newicon.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>C:\public\airdrive\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://woot.zapto.org/airdrive/</InstallUrl>
+    <ProductName>AirDrive</ProductName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AirDrive.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AirDrive.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form\frmFileProperties.Designer.vb">
+      <DependentUpon>frmFileProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmFileProperties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLogViewer.Designer.vb">
+      <DependentUpon>frmLogViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmLogViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLocDup.Designer.vb">
+      <DependentUpon>frmLocDup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmLocDup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="func\func_calc.vb" />
+    <Compile Include="func\func_convert.vb" />
+    <Compile Include="func\func_conncheck.vb" />
+    <Compile Include="func\func_gzip.vb" />
+    <Compile Include="func\func_io_file.vb" />
+    <Compile Include="func\func_ecrypt.vb" />
+    <Compile Include="func\func_transfer_upload.vb" />
+    <Compile Include="func\func_imap.vb" />
+    <Compile Include="objects\objQueueThreadStarter.vb" />
+    <Compile Include="vars_IMAP.vb" />
+    <Compile Include="objects\objIcon.vb" />
+    <Compile Include="objects\objAccount.vb" />
+    <Compile Include="objects\objSegment.vb" />
+    <Compile Include="objects\objSettingsTable.vb" />
+    <Compile Include="func\func_rcrypt.vb" />
+    <Compile Include="enums.vb" />
+    <Compile Include="form\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmActs.Designer.vb">
+      <DependentUpon>frmActs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmActs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmDupDiag.Designer.vb">
+      <DependentUpon>frmDupDiag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmDupDiag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmManage.Designer.vb">
+      <DependentUpon>frmManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmProfile.Designer.vb">
+      <DependentUpon>frmProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="func\functions.vb">
+    </Compile>
+    <Compile Include="func\func_dllimport.vb" />
+    <Compile Include="func\func_transfer_download.vb" />
+    <Compile Include="objects\objIMAP.vb" />
+    <Compile Include="methods.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="props.vb" />
+    <Compile Include="vars.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmActs.resx">
+      <DependentUpon>frmActs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmDupDiag.resx">
+      <DependentUpon>frmDupDiag.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmFileProperties.resx">
+      <DependentUpon>frmFileProperties.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmLogViewer.resx">
+      <DependentUpon>frmLogViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmManage.resx">
+      <DependentUpon>frmManage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmOptions.resx">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmProfile.resx">
+      <DependentUpon>frmProfile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmLocDup.resx">
+      <DependentUpon>frmLocDup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="eula.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\upload-encrypted.png" />
+    <None Include="img\gear.png" />
+    <None Include="img\plus.png" />
+    <None Include="img\refresh.png" />
+    <None Include="img\upload.png" />
+    <None Include="img\questionmark.png" />
+    <None Include="img\bars.png" />
+    <None Include="img\download.png" />
+    <None Include="img\folderplus.png" />
+    <None Include="img\folder-x.png" />
+    <None Include="img\fileplus.png" />
+    <None Include="img\file-x.png" />
+    <None Include="img\folderrename.png" />
+    <None Include="img\envelope-send.png" />
+    <None Include="img\filerename.png" />
+    <None Include="img\lock.png" />
+    <None Include="img\file-props.png" />
+    <None Include="img\newtitle-noreflection.png" />
+    <None Include="img\newtitle-noreflection-SHINY.png" />
+    <None Include="img\error.png" />
+    <None Include="img\success.png" />
+    <Content Include="inno.iss">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="new.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="newicon.ico" />
+    <Content Include="readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

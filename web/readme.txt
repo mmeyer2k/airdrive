@@ -1,0 +1,1 @@
+This directory holds some random files that are for the AirDrive SourceForge hosted website. These files need to be under version control, but are not required for the .NET application itself.
